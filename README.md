@@ -3,7 +3,7 @@ This is a sample application demonstrating the use of Spring Boot to build REST-
 services that can serve both JSON and XML using a single controller class.  It can be
 built and run locally using Gradle.
 
-# 4. License
+# 2. License
 This sample application and its associated source code in its entirety is being made
 available under the following licensing terms.
 
