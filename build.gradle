@@ -44,6 +44,10 @@ dependencies {
     compile "com.google.appengine:appengine-api-1.0-sdk:1.9.6"
 }
 
+appengine {
+    downloadSdk = true
+}
+
 task wrapper(type: Wrapper) {
     gradleVersion = '1.12'
 }
