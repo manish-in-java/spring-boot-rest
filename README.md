@@ -1,4 +1,4 @@
-# 1. Introduction
+# 1. Introduction [![Build status](https://drone.io/github.com/manish-in-java/spring-boot-rest/status.png)](https://drone.io/github.com/manish-in-java/spring-boot-rest/latest) [![Code coverage](https://coveralls.io/repos/manish-in-java/spring-boot-rest/badge.svg?branch=master&service=github)](https://coveralls.io/github/manish-in-java/spring-boot-rest?branch=master)
 This is a sample application demonstrating the use of Spring Boot to build REST-style
 services that can serve both JSON and XML using a single controller class.  It can be
 built and run locally using Gradle.
