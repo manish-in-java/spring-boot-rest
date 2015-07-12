@@ -1,8 +1,8 @@
-package org.example.api;
+package org.example.api.search;
 
-import org.example.domain.SdnSearch;
-import org.example.domain.SdnSearchResult;
-import org.example.service.SdnSearchService;
+import org.example.domain.search.SdnSearch;
+import org.example.domain.search.SdnSearchResult;
+import org.example.service.search.SdnSearchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

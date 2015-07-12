@@ -1,7 +1,7 @@
-package org.example.service;
+package org.example.service.search;
 
-import org.example.domain.SdnSearch;
-import org.example.domain.SdnSearchResult;
+import org.example.domain.search.SdnSearch;
+import org.example.domain.search.SdnSearchResult;
 
 /**
  * Contract for search operations on {@code Sdn}s.

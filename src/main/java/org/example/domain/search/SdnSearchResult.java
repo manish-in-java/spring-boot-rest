@@ -1,4 +1,4 @@
-package org.example.domain;
+package org.example.domain.search;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
@@ -15,6 +15,7 @@ public class SdnSearchResult
 
   SdnSearchResult()
   {
+    super();
   }
 
   public SdnSearchResult(Sdn... sdns)
@@ -24,6 +25,8 @@ public class SdnSearchResult
 
   public SdnSearchResult(List<Sdn> sdns)
   {
+    this();
+
     this.sdns = sdns;
   }
 

@@ -1,4 +1,4 @@
-package org.example.domain;
+package org.example.domain.search;
 
 import javax.xml.bind.annotation.XmlElement;
 
